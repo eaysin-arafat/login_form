@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 0;
+  /* padding: 2rem; */
+}
+
+.hide {
+  display: none;
+}
+
+.offscreen {
+  display: none;
+}
+
+.hideRedCross {
+  display: none;
+}
+
+.valid {
+  display: block;
+}
+
+.showRedCross {
+  display: block;
+}
+
+.showCheck {
+  display: block;
+}
+
+.instruction {
+  display: block;
+  font-weight: 400;
+}
+
+.showError {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: red;
+  margin-bottom: 15px;
+}
+
+.container {
+  background-color: #27cd6e;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.form input {
+  height: 30px;
+  font-size: 18px;
+  background-color: transparent;
+  outline: none;
+  appearance: none;
+  border: none;
+  color: white;
+  margin-top: -3px;
+}
+
+.form label {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form label span svg {
+  margin-top: 3px;
+  margin-left: 2px;
+}
+
+.form button {
+  background-color: white;
+  outline: none;
+  border: none;
+  height: 27px;
+  border-radius: 3px;
+  color: #27cd6e;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  font-size: 23px;
+}
